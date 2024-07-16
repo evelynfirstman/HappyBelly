@@ -1,0 +1,302 @@
+:root {
+    --primary : #EEAE0C;
+    --brand-text : #6B430E;
+    --text-color : #1F1D0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif, 'Oswald';
+    overflow-x: hidden;
+    background-color: #FEFDEC;
+
+}
+
+p {
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+h1,h2,h3,h4,h5, a {
+    color: var(--brand-text);
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.nav-bar, header, .offer-link {
+    background-color: var(--primary);
+    border-bottom: 1px solid var(--brand-text);
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-btn {
+    background-color: #f5e9df;
+    border: 3px solid #5f4314;
+    font-size: 700;
+    color: var(--brand-text);
+}
+
+.hero {
+    width: 100%;
+    height: 420px;
+    position: relative;
+    background: url(../images/hero-food.jpeg);
+    border-bottom: 1px solid var(--brand-text);
+}
+
+.hero-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-box {
+    width: 390px;
+    background-color: #f5e9df;
+    border-radius: 10px;
+}
+
+.hero-box span {
+    color: var(--primary);
+}
+
+.hero-box p {
+    font-size: .9rem;
+}
+
+.btn-main {
+    background-color: #f5e9df;
+    box-shadow: 1px 1px var(--brand-text);
+    border: 2px solid var(--brand-text);
+    font-weight:  700;
+    color: var(--brand-text);
+    font-size: .7rem;
+}
+
+.story, .purpose, .menu-category, .after-menu, .socials, .form-sec {
+    border-bottom: 1px solid var(--brand-text);
+}
+
+.story .mama {
+    max-width: 380px;
+    margin: auto;
+}
+
+.story-content p span {
+    color: var(--brand-text);
+    font-weight: 700;
+}
+
+.purpose-box {
+    max-width: 400px;
+    min-height: 270px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.purpose-box img {
+    width: 50px;
+}
+
+.yellow {
+    background-color: #ffcf6e;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.brown {
+    background-color: #d3b889;
+}
+
+.menu-box {
+    width: 380px;
+}
+
+.menu-img {
+    position: relative;
+    width: 380px;
+    height: 250px;
+    border-radius: 48px ;
+    border: 2px solid var(--brand-text);
+    overflow: hidden;
+}
+
+.menu-img img {
+    width: Fill 380px;
+    height: fixed 380px;
+    gap: 32px;
+}
+
+.star {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 70px;
+    height: 70px;
+    border: 1px solid var(--brand-text);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5230;
+    color: #fff;
+}
+
+.star span {
+    font-size: .5rem;
+} 
+
+.star p {
+    font-weight: 900;
+}
+
+.after-menu {
+    background-color: #D6BEA1;
+}
+
+.after-flex {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+}
+
+.after-img {
+    max-width: 230px;
+    max-height: 260px;
+    min-height: 200px;
+    min-width: 150px;
+    border-radius: 10px;
+    border: 2px solid var(--brand-text);
+    overflow: hidden;
+}
+
+.after-img img {
+    width: 230px;
+    height: 260px;
+
+}
+
+
+.soc-name {
+    border-right: 1px solid var(--brand-text);
+}
+
+
+.follow img {
+    height: 30px;
+}
+
+.soc-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--brand-text);
+    box-shadow: 1px 2px var(--brand-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    margin: auto;
+    min-width: 370px;
+    max-width: 600px;
+    border: 1px solid var(--brand-text);
+    border-radius: 20px !important;
+    font-size: 0.9rem;
+}
+
+form input, form textarea {
+    border-radius: 10px !important;
+    border: 1px solid var(--brand-text) !important;
+    box-shadow: 1px 2px var(--brand-text);
+    resize: none;
+
+}
+
+input[type=submit] {
+    font-family: 'Oswald';
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--brand-text);
+}
+
+.footer, .b-text {
+    color: var(--brand-text) !important;
+}
+
+.footer, .footer a {
+    list-style: none;
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+.mail-app {
+    max-width: 380px;
+}
+
+.mailing {
+    position: relative;
+    border: 2px solid var(--brand-text);
+    max-width: 370px;
+
+}
+    
+.mail-input {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+
+}
+
+.mail-arrow {
+    position: absolute;
+    right: 2%;
+    top: 13%;
+    display: inline;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--brand-text);
+    background-color: var(--primary);
+}
+
+.footer .app-downld .app-text {
+    line-height: 1;
+    text-align: left !important;
+}
+
+.footer .app-downld .app-text span {
+    font-size: .6rem;
+}
+
+.footer .app-downld .app-text p {
+    font-weight: 600;
+}
+
+.foot-soc {
+    margin-left: 10px;
+}
